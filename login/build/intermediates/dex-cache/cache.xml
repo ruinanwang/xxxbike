@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_42249b6e0e0d7586227232373852dcd014f0facf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_a5bd19424db4cd5c6da370dd84140541e44a4462/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.4/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-core-1.8.4_ac612f75c468730160f959b2d40f45efaf3b5a75/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.8.4/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-zxing-1.8.4_de034bdbcf796f0ab974bb9bd97798954bd23172/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/libs/unity-classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="48ec1c2856a6433a381be67b969dd8aa7c4055ae">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/2/unity-classes_b89f886d6df66810eeaad8497999f7810051e270/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_6756aa7f6598da330681c881dee3ede959c397fd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_fd429372da8a12762dc17bc0557ff1e8940767cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3bd53ee4dc5833204208224b59595249d432147e">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c3aabb4926d5e198f0864e33fe339033af77daaf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/libs/app.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="30bca84d5e4260b7cb832541955ec3eec51aa4a3">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/2/app_4773f3bd8ffd2d68298909ac7edf5722a29a03b9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_ef31ad2ed8abe9d7a2ace5830aa88ef47d214d10/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_c6fe2d3ec374ed15e93f88c3c80645cc92ba5164/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_f58dc8e1c534eae5deb0c791608c1c18b918ec91/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="eb38f1ecd0355b162ba6dc4dd66e7fd6b1232559">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d51108d14865ef3f94ad088152f571597e72bf95/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_7d15a7caf26cb008b90a22f8a47f2f0107f10742/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_2eab38548328ca86fa6cd3c3d1706b080b0479ce/classes.dex" />
+    </item>
+    <item
+        jar="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/xuruihan/Downloads/TestProj/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_33d65740eb60d991ab9832bb96d3cb44be5e439f/classes.dex" />
+    </item>
+
+</items>
