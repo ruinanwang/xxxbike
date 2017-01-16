@@ -84,7 +84,12 @@ public class MainActivity extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
 
         if (id == R.id.nav_profile) {
+<<<<<<< HEAD
             fragmentManager.beginTransaction().replace(R.id.content_frame, new ProfileFragment()).commit();
+=======
+            
+
+>>>>>>> 751d5a8d7e56e07747bab123f312bc2d910e30d4
         } else if (id == R.id.nav_unlockBike) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
         } else if (id == R.id.nav_payment) {
