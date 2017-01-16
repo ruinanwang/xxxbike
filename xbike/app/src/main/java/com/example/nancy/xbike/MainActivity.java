@@ -1,5 +1,6 @@
 package com.example.nancy.xbike;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,10 +82,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
-            
-
+            this.toLogin();
         } else if (id == R.id.nav_unlockBike) {
-
+            this.toUnblock();
         } else if (id == R.id.nav_payment) {
 
         } else if (id == R.id.nav_share) {
@@ -94,5 +94,16 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void toLogin(){
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
+        finish();
+    }
+    public void toUnblock(){
+        Intent i = new Intent(this, UnblockBike.class);
+        startActivity(i);
+        finish();
     }
 }
