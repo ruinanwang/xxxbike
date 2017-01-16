@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
+            
 
         } else if (id == R.id.nav_unlockBike) {
 
