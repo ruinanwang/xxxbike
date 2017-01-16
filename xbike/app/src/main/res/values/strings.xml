@@ -17,11 +17,5 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-<<<<<<< HEAD
-    <string name="google_app_id">null</string>
-
-    <string name="action_settings">Settings</string>
-=======
     <string name="title_activity_unblock_bike">UnblockBike</string>
->>>>>>> 31c2f59d59772a5a1016ad91b97d976b3d7900c8
 </resources>

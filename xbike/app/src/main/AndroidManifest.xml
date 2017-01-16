@@ -2,16 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nancy.xbike">
 
-<<<<<<< HEAD
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true"/>
-=======
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.CAMERA" />
->>>>>>> 31c2f59d59772a5a1016ad91b97d976b3d7900c8
 
     <application
         android:allowBackup="true"
@@ -19,7 +13,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -30,23 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCv77eEyguarAYfh-jFRZ5lxccejJRgsao"/>
-
-
-=======
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity
             android:name=".UnblockBike"
             android:label="@string/title_activity_unblock_bike"
             android:theme="@style/AppTheme.NoActionBar" />
->>>>>>> 31c2f59d59772a5a1016ad91b97d976b3d7900c8
     </application>
 
 </manifest>

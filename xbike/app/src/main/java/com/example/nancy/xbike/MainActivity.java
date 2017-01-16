@@ -16,25 +16,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.Fragment;
 
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-
-import android.graphics.drawable.RippleDrawable;
-
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
-
-    SupportMapFragment sMapFragment;
-
-
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        sMapFragment = SupportMapFragment.newInstance();
-
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -56,8 +43,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        sMapFragment.getMapAsync(this);
     }
 
     @Override
@@ -96,16 +81,8 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-
-        FragmentManager fm = getSupportFragmentManager();
-        android.support.v4.app.FragmentManager sFm = getSupportFragmentManager();
-
         int id = item.getItemId();
         FragmentManager fragmentManager = getSupportFragmentManager();
-
-        if (sMapFragment.isAdded()) {
-            sFm.beginTransaction().hide(sMapFragment).commit();
-        }
 
         if (id == R.id.nav_profile) {
             this.toLogin();
@@ -121,11 +98,6 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-            if (!sMapFragment.isAdded()) {
-                sFm.beginTransaction().add(R.id.map, sMapFragment).commit();
-            } else {
-                sFm.beginTransaction().show(sMapFragment).commit();
-            }
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -133,12 +105,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-<<<<<<< HEAD
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-
-    }
-=======
     public void toLogin(){
         Intent i = new Intent(this, LoginActivity.class);
         startActivity(i);
@@ -150,5 +116,4 @@ public class MainActivity extends AppCompatActivity
         finish();
     }
 
->>>>>>> 31c2f59d59772a5a1016ad91b97d976b3d7900c8
 }
