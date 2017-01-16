@@ -82,17 +82,17 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-//        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
 
         if (id == R.id.nav_profile) {
             this.toLogin();
-<<<<<<< HEAD
-        } else if (id == R.id.nav_unlockBike) {
-            this.toUnblock();
-=======
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new ProfileFragment()).commit();
 
         } else if (id == R.id.nav_unlockBike) {
+            this.toUnblock();
+
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new ProfileFragment()).commit();
+
+//        } else if (id == R.id.nav_unlockBike) {
 //            fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
         } else if (id == R.id.nav_payment) {
 
@@ -110,12 +110,10 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
 //        finish();
     }
-<<<<<<< HEAD
     public void toUnblock(){
         Intent i = new Intent(this, UnblockBike.class);
         startActivity(i);
         finish();
     }
-=======
->>>>>>> 88fcfd800edeb423a51cbf7dfd5139a47de58765
+
 }
