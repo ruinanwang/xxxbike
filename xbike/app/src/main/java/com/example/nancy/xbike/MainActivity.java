@@ -82,14 +82,13 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        FragmentManager fragmentManager = getSupportFragmentManager();
+//        FragmentManager fragmentManager = getSupportFragmentManager();
 
         if (id == R.id.nav_profile) {
             this.toLogin();
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new ProfileFragment()).commit();
-
+//            fragmentManager.beginTransaction().replace(R.id.content_frame, new ProfileFragment()).commit();
         } else if (id == R.id.nav_unlockBike) {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
+//            fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
         } else if (id == R.id.nav_payment) {
 
         } else if (id == R.id.nav_share) {
@@ -104,6 +103,6 @@ public class MainActivity extends AppCompatActivity
     public void toLogin(){
         Intent i = new Intent(this, LoginActivity.class);
         startActivity(i);
-        finish();
+//        finish();
     }
 }
