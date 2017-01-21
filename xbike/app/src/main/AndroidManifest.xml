@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nancy.xbike">
-    
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -29,23 +25,11 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".MapsActivity" />
         <activity
             android:name=".UnblockBike"
             android:label="@string/title_activity_unblock_bike"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <!--Maps Android Key-->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB7OBZmSzuDzrb8LN7cGKc_BObVSNZ0rWo"/>
-        <!--Maps-->
-
+        <activity android:name=".profileView"></activity>
     </application>
-
-    <uses-configuration
-        android:glEsVersion="0x00020000"
-        android:required="true"
-        />
 
 </manifest>

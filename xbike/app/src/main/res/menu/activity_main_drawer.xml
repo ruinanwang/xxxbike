@@ -10,9 +10,15 @@
             android:id="@+id/nav_unlockBike"
             android:icon="@drawable/ic_menu_manage"
             android:title="Unlock Bike" />
-        <item android:title="Payment"
+        <item
+            android:title="Payment"
             android:id="@+id/nav_payment"
             android:icon="@drawable/ic_menu_send" />
+        <item
+            android:title="Login"
+            android:id="@id/login"
+            android:icon="@drawable/ic_menu_send" />
+
     </group>
 
     <item android:title="Share">
