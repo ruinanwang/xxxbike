@@ -67,6 +67,7 @@ public class Payment extends AppCompatActivity {
         Button add = (Button) findViewById(R.id.addButton);
         add.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //add default
                 User.addCard();
                 startActivity(update);
             }
@@ -75,6 +76,7 @@ public class Payment extends AppCompatActivity {
         Button minus = (Button) findViewById(R.id.minusButton);
         minus.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //delete default
                 User.deleteCard();
                 startActivity(update);
             }
