@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
 
     private GoogleMap mMap;
+    //comment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
