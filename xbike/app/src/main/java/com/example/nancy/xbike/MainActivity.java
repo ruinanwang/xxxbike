@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         FragmentManager fragmentManager = getSupportFragmentManager();
 
-        if (id == R.id.nav_profile) {
+        if (id == R.id.nav_login) {
             this.toLogin();
 
         } else if (id == R.id.nav_unlockBike) {
@@ -120,16 +120,18 @@ public class MainActivity extends AppCompatActivity
 //        } else if (id == R.id.nav_unlockBike) {
 //            fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
         } else if (id == R.id.nav_payment) {
-
+            Intent toPayment = new Intent(this, Payment.class);
+            startActivity(toPayment);
+            finish();
         } else if (id == R.id.nav_share) {
 
+        } else if (id == R.id.nav_profile) {
+            this.toProfile();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
     public void toLogin(){
         Intent i = new Intent(this, LoginActivity.class);
         startActivity(i);
@@ -140,5 +142,9 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
         finish();
     }
-
+    public void toProfile() {
+        Intent i = new Intent(this, profileView.class);
+        startActivity(i);
+        finish();
+    }
 }
