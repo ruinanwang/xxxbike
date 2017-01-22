@@ -10,6 +10,9 @@
             android:id="@+id/nav_unlockBike"
             android:icon="@drawable/ic_menu_manage"
             android:title="Unlock Bike" />
+        <item android:title="History"
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_send" />
         <item android:title="Payment"
             android:id="@+id/nav_payment"
             android:icon="@drawable/ic_menu_send" />
