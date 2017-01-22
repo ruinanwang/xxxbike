@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
 
     private GoogleMap mMap;
-    //comment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,9 +65,9 @@ public class MainActivity extends AppCompatActivity
         mMap = googleMap;
 
         // Add a marker in Sydney, Australia, and move the camera.
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng gt = new LatLng(33.774641, -84.396490);
+        mMap.addMarker(new MarkerOptions().position(gt).title("GT"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(gt));
     }
 
     @Override
@@ -121,9 +120,6 @@ public class MainActivity extends AppCompatActivity
 //        } else if (id == R.id.nav_unlockBike) {
 //            fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
         } else if (id == R.id.nav_payment) {
-            this.toPayment();
-
-        } else if (id == R.id.nav_history) {
 
         } else if (id == R.id.nav_share) {
 
@@ -145,9 +141,4 @@ public class MainActivity extends AppCompatActivity
         finish();
     }
 
-    public void toPayment() {
-        Intent toPayment = new Intent(this, Payment.class);
-        startActivity(toPayment);
-        finish();
-    }
 }
