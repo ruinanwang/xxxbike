@@ -121,6 +121,9 @@ public class MainActivity extends AppCompatActivity
 //        } else if (id == R.id.nav_unlockBike) {
 //            fragmentManager.beginTransaction().replace(R.id.content_frame, new UnblockFragment()).commit();
         } else if (id == R.id.nav_payment) {
+            this.toPayment();
+
+        } else if (id == R.id.nav_history) {
 
         } else if (id == R.id.nav_share) {
 
@@ -142,4 +145,9 @@ public class MainActivity extends AppCompatActivity
         finish();
     }
 
+    public void toPayment() {
+        Intent toPayment = new Intent(this, Payment.class);
+        startActivity(toPayment);
+        finish();
+    }
 }
